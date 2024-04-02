@@ -1,0 +1,35 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  margin-bottom: 10px;
+}
+.create_form button{
+  padding: 10px;
+  background-color: hsl(0, 0%, 15%);
+  color: rgb(209, 206, 206);
+  cursor: pointer;
+}
+.task{
+  display: flex;
+  align-items: center;
+  width: 360px;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 15%);
+  color: rgb(208, 204, 204);
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+.line_through{
+  text-decoration: line-through;
+}
+button ,input[type="checkbox"]{
+  cursor: pointer;
+}
